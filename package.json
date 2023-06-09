@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@truffle/codec": "^0.15.2",
+    "@truffle/codec-components": "^0.1.0-canary-7",
+    "@truffle/decoder": "^5.4.4",
+    "@truffle/fetch-and-compile": "^0.5.48",
     "connectkit": "^1.4.0",
     "next": "^13.4.0",
     "react": "^18.2.0",
@@ -17,6 +21,7 @@
     "wagmi": "^1.0.6"
   },
   "devDependencies": {
+    "@truffle/compile-common": "^0.9.6",
     "@types/node": "^17.0.31",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
